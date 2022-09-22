@@ -1,0 +1,85 @@
+.outer{
+    display: flex;
+}
+.listcontainer{
+    margin: auto;
+    justify-content: center;
+
+}
+
+.imgdiv{
+
+    width: 80px;
+    height: 110px;
+}
+img{
+    width: 8vw;
+}
+
+.joblist{
+    width: 60%;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 25%;
+}
+.Box{
+    width: 24vw;
+    height: 20vh;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Button{
+    width: 10vw;
+    height:5vh;
+    border: 0px solid;
+    border-radius:10px;
+    color: whitesmoke;
+    background: #000;
+}
+
+.thick{
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 5px;
+    text-align: left;
+    color: grey;
+    
+}
+.thin{
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+    color: grey;
+}
+
+.description{
+    margin-left: 4vw;
+}
+
+.paginationbox{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 630px;
+}
+
+button{
+    margin-left: 5px;
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+
+.ad{
+    color: grey;
+    font-size: 40px;
+    text-decoration: wavy;
+    font-style: italic;
+    text-align: center;
+}
+ 

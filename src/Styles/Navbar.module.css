@@ -1,0 +1,24 @@
+.box{
+    border: 1px solid;
+    height: 10vh;
+    width: 100vw;    
+    font-size: 13px;
+    display: flex;
+    margin: auto;
+    align-items: center; 
+    justify-content: space-between;  
+}
+.box>div:nth-child(2){
+    display: flex;
+    margin: auto;
+    align-items: center; 
+}
+ 
+.imge{
+    width: 10vw;
+    height: 9vh;
+}
+#outlined-basic{
+    margin-left: -20px;
+}
+ 
